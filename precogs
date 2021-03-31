@@ -1,1 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2021-03-24T07:21:01.025Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" version="14.2.7" etag="2t5NFXcQ3-bgwSy_zLD9" type="github"><diagram id="Okok_iz3wqVncNgNggX-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-31T03:13:17.176Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="91q1rKYNNpitgf6GZbhh" version="14.5.3" type="github">
+  <diagram id="Okok_iz3wqVncNgNggX-" name="Page-1">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S00ncuePjcPzbQNjUXDA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S00ncuePjcPzbQNjUXDA-1" target="S00ncuePjcPzbQNjUXDA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S00ncuePjcPzbQNjUXDA-1" value="scene_input_data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S00ncuePjcPzbQNjUXDA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="S00ncuePjcPzbQNjUXDA-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S00ncuePjcPzbQNjUXDA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S00ncuePjcPzbQNjUXDA-6" target="S00ncuePjcPzbQNjUXDA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S00ncuePjcPzbQNjUXDA-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S00ncuePjcPzbQNjUXDA-6" target="S00ncuePjcPzbQNjUXDA-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S00ncuePjcPzbQNjUXDA-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S00ncuePjcPzbQNjUXDA-6" target="S00ncuePjcPzbQNjUXDA-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S00ncuePjcPzbQNjUXDA-6" value="OperationsProvider" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="375" y="315" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S00ncuePjcPzbQNjUXDA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S00ncuePjcPzbQNjUXDA-8" target="S00ncuePjcPzbQNjUXDA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S00ncuePjcPzbQNjUXDA-8" value="Triggers" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="S00ncuePjcPzbQNjUXDA-10" value="每一种OperationProvider又会依赖各种trigger" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="S00ncuePjcPzbQNjUXDA-12" value="根据operation中的type调用具体的OperationProvider" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="190" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S00ncuePjcPzbQNjUXDA-14" value="Type" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="390" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S00ncuePjcPzbQNjUXDA-16" value="BaseTriggers" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="S00ncuePjcPzbQNjUXDA-20" value="可能需要一些utils" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="690" y="315" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S00ncuePjcPzbQNjUXDA-22" value="Effects" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="375" y="475" width="110" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
