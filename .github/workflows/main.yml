@@ -1,4 +1,4 @@
-name: CI
+name: MYCI
 on:
   push:
     branches: [ master ]
@@ -7,13 +7,13 @@ on:
 
   workflow_dispatch:
 jobs:
-  build:
+  job1:
     runs-on: ubuntu-latest
+    services:
+      nginx:
+        image: nginx
+        ports:
+          - 8080:80
     steps:
-      - uses: actions/checkout@v2
-      - name: Run a one-line script
-        run: echo Hello, world!
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      - uses: actions/checkout@v1
+      - run: curl localhost:8080
